@@ -80,7 +80,7 @@
             <li class="advantages-item">
               <div class="advantages-container">
                 <svg class="advantages-icon" width="70" height="70">
-                  <use href="./images/icons/sprite.svg#antena"></use>
+                  <use href="./images/icons/sprite.svg#antenna"></use>
                 </svg>
               </div>
               <h3 class="advantages-title" uppercase-title>
@@ -190,7 +190,7 @@
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team list">
-            <class="team-item">
+            <li class="team-item">
               <img
                 src="./images/main/team-1.jpg"
                 alt="Игорь Демьяненко"
@@ -464,7 +464,7 @@
           <ul class="clients-list list">
             <li class="clients-item">
               <a
-                class="clients-list list"
+                class="clients-link link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -477,7 +477,7 @@
             </li>
             <li class="clients-item">
               <a
-                class="clients-list list"
+                class="clients-link link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -548,9 +548,9 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-contacts-container">
-          <a class="logo-footer link" href="./index.html"
-          ><span>Web</span>Studio</a
-            >
+          <a class="logo link logo-footer" href="./index.html"
+            ><span>Web</span>Studio</a
+          >
           <address class="footer-contacts">
             <ul class="fcontact-list list">
               <li class="fcontact-item">
@@ -574,9 +574,9 @@
           </address>
         </div>
         <div class="footer-socials-container">
-          <p class="footer-socials-text" uppercase-title>Присоединяйтесь</p>
+          <p class="footer-socials-text uppercase-title">Присоединяйтесь</p>
           <ul class="socials-list list">
-            <li class="social-item">
+            <li class="socials-item">
               <a
                 class="social-link link"
                 href=""
@@ -589,7 +589,7 @@
                 </svg>
               </a>
             </li>
-            <li class="social-item">
+            <li class="socials-item">
               <a
                 class="socials-link link"
                 href=""
@@ -602,7 +602,7 @@
                 </svg>
               </a>
             </li>
-            <li class="social-item">
+            <li class="socials-item">
               <a
                 class="socials-link link"
                 href=""
@@ -631,23 +631,23 @@
           </ul>
         </div>
         <div class="footer-form-container">
-        <p class="footer-mailing-text uppercasse-title">
+          <p class="footer-mailing-text uppercase-title">
             Подпишись на рассылку
-        </p>
-        <div class="footer-form-container">
+          </p>
+          <div class="footer-form-container">
             <form class="form-footer" action="">
-                <input type="email" name="mail" placeholder="E-mail" />
-                <button class="modal-btn button" type="submit">
-                    Подписаться
-                    <svg class="icon-send" width="24" height="24">
-                        <use href="./images/icons/sprite.svg#send"></use>
-                    </svg>
-                  </button>
-                </form>
-              </div>
-            </div>
+              <input type="email" name="mail" placeholder="E-mail" />
+              <button class="modal-btn button" type="submit">
+                Подписаться
+                <svg class="icon-send" width="24" height="24">
+                  <use href="./images/icons/sprite.svg#send"></use>
+                </svg>
+              </button>
+            </form>
           </div>
-       </footer>
+        </div>
+      </div>
+    </footer>
 
     <!--MODAL WINDOW-->
     <div class="backdrop is-hidden" data-modal>
@@ -658,59 +658,59 @@
           </svg>
         </button>
         <form action="" class="modal-form">
-            <strong class="form-text">
-                Оставте свои данные, мы вам перезвоним</strong
-                >
-                <label class="form-group">
-                    <span class="form-label">Имя</span>
-                    <input class="form-input" name="name" type="text" />
+          <strong class="form-text">
+            Оставте свои данные, мы вам перезвоним</strong
+          >
+          <label class="form-group">
+            <span class="form-label">Имя</span>
+            <input class="form-input" name="name" type="text" />
 
-                    <svg class="form-input" width="18" height="18">
-                        <use href="./images/icons/sprite.svg#person"></use>
-                    </svg>
-                </label>
-                <label class="form-group">
-                    <span class="form-label">Телефон</span>
-                    <input class="form-input" name="phone" type="phone" />
+            <svg class="form-input" width="18" height="18">
+              <use href="./images/icons/sprite.svg#person"></use>
+            </svg>
+          </label>
+          <label class="form-group">
+            <span class="form-label">Телефон</span>
+            <input class="form-input" name="phone" type="phone" />
 
-                    <svg class="form-icon" width="18" height="18">
-                        <use href="./images/icons/sprite.svg#phone"></use>
-                    </svg>
-                </label>
-                <label class="form-group">
-                    <span class="form-label">Почта</span>
-                    <input class="form-input" name="mail" type="email" />
+            <svg class="form-icon" width="18" height="18">
+              <use href="./images/icons/sprite.svg#phone"></use>
+            </svg>
+          </label>
+          <label class="form-group">
+            <span class="form-label">Почта</span>
+            <input class="form-input" name="mail" type="email" />
 
-                    <svg class="form-icon" width="18" height="18">
-                        <use href="./images/icons/sprite.svg#email"></use>
-                    </svg>
-                </label>
-                <label class="form-group comment-group">
-                    <span class="form-label">Коментарий</span>
-                    <textarea
-                    class="form-input comment"
-                    name="comment"
-                    placeholder="Ввидите текст"
-                    ></textarea>
-                    <!-- <input class="form-input" type="text" /> -->
-                </label>
-                <label class="form-policy">
-                    <input
-                    class="checkbox visually-hidden"
-                    name="checkbox"
-                    type="checkbox" 
-                    />
-                    <span class="custom-checkbox">
-                        <svg class="custom-checkbox-icon" width="18" height="18">
-                            <use href="./images/icons/sprite.svg#checkbox"></use>
-                        </svg>
-                    </span>
-                    <span class="form-policy-text">
-                        Соглашаюсь с рассылкой и принимаю
-                        <a class="policy-link" href="">Условия договора</a>
-                    </span>
-                </label>
-                <button class="modal-btn button" type="submit">Отправить</button>
+            <svg class="form-icon" width="18" height="18">
+              <use href="./images/icons/sprite.svg#email"></use>
+            </svg>
+          </label>
+          <label class="form-group comment-group">
+            <span class="form-label">Коментарий</span>
+            <textarea
+              class="form-input comment"
+              name="comment"
+              placeholder="Ввидите текст"
+            ></textarea>
+            <!-- <input class="form-input" type="text" /> -->
+          </label>
+          <label class="form-policy">
+            <input
+              class="checkbox visually-hidden"
+              name="checkbox"
+              type="checkbox"
+            />
+            <span class="custom-checkbox">
+              <svg class="custom-checkbox-icon" width="18" height="18">
+                <use href="./images/icons/sprite.svg#checkbox"></use>
+              </svg>
+            </span>
+            <span class="form-policy-text">
+              Соглашаюсь с рассылкой и принимаю
+              <a class="policy-link" href="">Условия договора</a>
+            </span>
+          </label>
+          <button class="modal-btn button" type="submit">Отправить</button>
         </form>
       </div>
     </div>
