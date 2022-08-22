@@ -449,10 +449,9 @@ img {
     background-color: var(--background-color-secondary);
 }
 
-.logo-footer {
+.footer .logo {
     display: inline-block;
     margin-bottom: 20px;
-    margin-right: 0;
     color: var(--secondary-font-color);
 }
 
@@ -506,7 +505,6 @@ img {
 }
 
 .footer-socials-container {
-    flex-grow: 1;
     margin-right: 93px;
 }
 
